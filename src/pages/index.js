@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Layout from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image';
 
 
 const HomePage = () => {
@@ -9,7 +10,9 @@ const HomePage = () => {
 
         <main>
           <title>Home Page</title>
-          <h3>I am Aravinth Kumar Balasubbirmani</h3>
+          <h1>Huskyyy Boiii & Pittyy Boiii</h1>
+          <StaticImage src="https://media-be.chewy.com/wp-content/uploads/2021/06/01091720/Siberian-Husky_FeaturedImage.jpg" alt="Huskyy Boiiii" width={400} height={400} />
+          <StaticImage src="../images/Dogy.png" alt="Pittyy Boiiii" width={400} height={400} style={{ margin: "10px" }} />
         </main>
       </Layout>
     </>
